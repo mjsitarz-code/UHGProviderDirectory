@@ -16,6 +16,7 @@ public class InsuranceConsumerApplication {
     public CommandLineRunner run(InsurancePlanService service) {
         return args -> {
             service.consumeAllPlans();
+            //test
         };
     }
 }
